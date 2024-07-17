@@ -31,4 +31,3 @@ netconf_loopback = """
 """
 netconf_reply = m.edit_config(target="running", config=netconf_loopback)
 print(xml.dom.minidom.parseString(netconf_reply.xml).toprettyxml())
-
