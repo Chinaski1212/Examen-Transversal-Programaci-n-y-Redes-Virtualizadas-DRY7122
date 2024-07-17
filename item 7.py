@@ -2,7 +2,6 @@
 #Configurar EIGRP Nombrado a nivel IPv4/IPv6 con AS a elección. Debe configurar interfaces pasivas respectivas y debe
 #mostrar el resultado con el comando show running-config | section eigrp
 
-
 from netmiko import ConnectHandler
 import time
 
